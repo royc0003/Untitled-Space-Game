@@ -1,0 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
+
+public class EndSceneManager : MonoBehaviour {
+    public Button button;
+    public GameObject panel;
+    public GameObject t;
+    public bool finished;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        finished = false;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (t.GetComponent<PlayableDirector>().state != PlayState.Playing && finished)
+        {
+            SceneManager.LoadScene("Level4Start");
+        }
+    }
+
+    public void PlayEndScene() {
+        panel.SetActive(false);
+        t.GetComponent<PlayableDirector>().Play();
+        finished = true;
+
+    }
+}
