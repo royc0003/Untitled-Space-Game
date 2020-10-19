@@ -21,6 +21,7 @@ public class Cutscene3 : MonoBehaviour
     
 
     public void NextScene() {
+        button.gameObject.SetActive(false);
         animatorFuel.SetBool("pour",true);
         Invoke("LoadNextScene",3.0f);
         return;
