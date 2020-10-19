@@ -12,14 +12,9 @@ public class Cutscene3 : MonoBehaviour
     {
         button.onClick.AddListener(NextScene);
     }
-
-    public void NextScene() {
-        Invoke("LoadNextScene",3.0f);
-        return;
-        
-    }
-    public void LoadNextScene() {
-        SceneManager.LoadScene("Cutscene2");
-    }
     
+    public void NextScene()
+    {
+        SceneManager.LoadScene("Cutscene4");
+    }
 }
