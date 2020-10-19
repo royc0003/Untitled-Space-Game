@@ -16,7 +16,6 @@ public class Cutscene2 : MonoBehaviour
     }
 
     public void NextScene() {
-        button.gameObject.SetActive(false);
         animatorCamera.SetBool("move",true);
         Invoke("LoadNextScene",4.0f);
         return;
