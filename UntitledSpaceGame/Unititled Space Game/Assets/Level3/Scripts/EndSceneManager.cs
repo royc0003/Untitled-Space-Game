@@ -22,7 +22,7 @@ public class EndSceneManager : MonoBehaviour {
     {
         if (t.GetComponent<PlayableDirector>().state != PlayState.Playing && finished)
         {
-            SceneManager.LoadScene("Level4Start");
+            SceneManager.LoadScene("Cutscene3");
         }
     }
 

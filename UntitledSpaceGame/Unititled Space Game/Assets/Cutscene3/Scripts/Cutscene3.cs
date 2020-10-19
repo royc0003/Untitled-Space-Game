@@ -7,9 +7,13 @@ using UnityEngine.SceneManagement;
 public class Cutscene3 : MonoBehaviour
 {
     public Button button;
+    public GameObject UI;
     // Start is called before the first frame update
     void Start()
     {
+        UI.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         button.onClick.AddListener(NextScene);
     }
     
