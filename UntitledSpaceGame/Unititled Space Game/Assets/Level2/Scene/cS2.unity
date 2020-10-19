@@ -2300,8 +2300,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - Thankfully you made it out too...
-    - Let's continue...
+    - Now, let us think of how we should move forward...
+    - I think I overheard the aliens discussing about a rocket that's nearby while
+      I was stuck at the lab.
+    - I vaguely remember the location that they talked about. Let's try and make
+      our way there!
 --- !u!114 &1143056658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3592,7 +3595,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 7, y: -96.8}
-  m_SizeDelta: {x: 700, y: 100}
+  m_SizeDelta: {x: 690, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840794385
 MonoBehaviour:
@@ -3626,7 +3629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Oh there you are... '
+  m_Text: Oh there you are... Seems like we both managed to shake them off!
 --- !u!222 &1840794386
 CanvasRenderer:
   m_ObjectHideFlags: 0
