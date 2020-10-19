@@ -13,6 +13,8 @@ public class Cutscene5 : MonoBehaviour
     {
         animatorRocket.SetBool("fly",false);
         button.onClick.AddListener(NextScene);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
     
     public void NextScene() {
@@ -23,6 +25,6 @@ public class Cutscene5 : MonoBehaviour
         
     }
     public void LoadNextScene() {
-        //SceneManager.LoadScene("Level4Start");
+        SceneManager.LoadScene("Cutscene6");
     }
 }
