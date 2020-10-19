@@ -9,9 +9,11 @@ public class RocketCollidingScript : MonoBehaviour
     public Camera playerCamera ; // Drag & Drop the camera of the player
     public Camera cutsceneCamera ; // Drag & Drop the camera used for the cutscene
     public Animator animatorRocket;
+    public GameObject UI;
     
     private void OnTriggerEnter(Collider other)
     {
+        UI.SetActive(false);
         playerCamera.gameObject.SetActive(false);
         cutsceneCamera.gameObject.SetActive(true);
         animatorRocket.SetBool("fly",true);
@@ -21,6 +23,6 @@ public class RocketCollidingScript : MonoBehaviour
 
     public void EndDialogue()
     {
-        //SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("Cutscene5");
     }
 }
