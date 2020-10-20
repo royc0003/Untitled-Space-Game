@@ -23,6 +23,7 @@ public class BackgroundMusic : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Background3");
             FindObjectOfType<AudioManager>().Play("Siren");
+            FindObjectOfType<AudioManager>().Play("zombie");
             FindObjectOfType<AudioManager>().StopPlaying("Background1");
         }
     }

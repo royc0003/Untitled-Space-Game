@@ -5,34 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Start/Main Screen.unity
     guid: 5d200d1e42b345442ab898fa1ff1886f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Cutscene1/Scene/Cutscene1.unity
     guid: e862b26b9346003458a9b2d537b3f059
-  - enabled: 0
+  - enabled: 1
     path: Assets/Cutscene2/Scene/Cutscene2.unity
     guid: 3d0cb9ba21f8a9c4dbeedb1e7d3d8284
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level1/Scenes/Level1A.unity
     guid: bcabd83ff71d492469a6f639d9382cfe
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level1/Scenes/Level1B.unity
     guid: e9406ef9ea166644abc75cb7a7da3c64
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level1/Scenes/Level1C.unity
     guid: 30e0030d6ac994e4abc29f594c997103
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level1/Scenes/Level1D.unity
     guid: 965c8fd9ffb958647a981f895efe2fa9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level2/Scene/cs1.unity
     guid: ff1ad98f1731bfd4ab839f2ad381808a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level2/Scene/Obstacle Course.unity
     guid: c0d518842a06adc498fed6c1a94081d9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Level2/Scene/cS2.unity
     guid: 7149fe3401d8bc148974fd33a1b69436
   - enabled: 1
