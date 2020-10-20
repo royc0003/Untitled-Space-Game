@@ -24,6 +24,6 @@ public class Cutscene6 : MonoBehaviour
         
     }
     public void LoadNextScene() {
-        //SceneManager.LoadScene("Level4Start");
+        SceneManager.LoadScene("EndingScene");
     }
 }
