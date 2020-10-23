@@ -15,12 +15,14 @@ public class EndingDialogueManager : MonoBehaviour
     public GameObject myFace;
     public Camera firstPersonCamera;
     public Camera sceneCamera;
-    public GameObject UI;
+    public GameObject UI1;
+    public GameObject UI2;
 
     // Start is called before the first frame update
     void Start()
     {
-        UI.SetActive(true);
+        UI1.SetActive(true);
+        UI2.SetActive(false);
         firstPersonCamera.gameObject.SetActive(false);
         sceneCamera.gameObject.SetActive(true);
         sentences = new Queue<string>();
@@ -73,8 +75,9 @@ public class EndingDialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        UI.SetActive(false);
+        UI1.SetActive(false);
         firstPersonCamera.gameObject.SetActive(true);
         sceneCamera.gameObject.SetActive(false);
+        UI2.SetActive(true);
     }
 }

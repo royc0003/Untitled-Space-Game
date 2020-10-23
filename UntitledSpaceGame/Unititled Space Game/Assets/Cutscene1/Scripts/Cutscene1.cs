@@ -18,6 +18,7 @@ public class Cutscene1 : MonoBehaviour
 
     public void NextScene() {
         //animatorText.SetBool("close",true);
+        button.gameObject.SetActive(false);
         animatorChar.SetBool("suck",true);
         Invoke("LoadNextScene",3.0f);
         return;

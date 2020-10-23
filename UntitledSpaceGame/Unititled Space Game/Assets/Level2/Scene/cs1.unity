@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 81f714daf7144784b8a2f42f1cd30927, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 0f880b0d49b19c348aa12a03f6eb50f8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -10265,9 +10265,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - The only way is through the city..
-    - Watch out for the falling balls and obstacles along the way!!
-    - When in doubt, follow the light... Good luck.
+    - I see a city nearby. Let's go through it and try to shake off the aliens before
+      deciding where we should go from here!
+    - Watch out for the falling balls and obstacles on the way!
+    - AHH they're coming.. RUNNN!!!!!
 --- !u!114 &1143056658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15422,7 +15423,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 7, y: -96.8}
-  m_SizeDelta: {x: 700, y: 100}
+  m_SizeDelta: {x: 690, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840794385
 MonoBehaviour:
@@ -15456,7 +15457,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oh no.. I see the aliens far ahead..
+  m_Text: 'Oh no.. I see the aliens chasing us from here. '
 --- !u!222 &1840794386
 CanvasRenderer:
   m_ObjectHideFlags: 0
