@@ -7,11 +7,11 @@ public class Obstacle : MonoBehaviour
 {
     public int damage;
     public float rotationSpeed = 60;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,14 +27,8 @@ public class Obstacle : MonoBehaviour
 
         if (collider.gameObject.tag == "Player")
         {
-           
+
             PlayerManager.health -= damage;
-            if (PlayerManager.health <= 0)
-            {
-                SceneManager.LoadScene("(SarahKL) Fight Creatures");
-
-            }
-
         }
     }
 }
