@@ -181,6 +181,7 @@
      <Compile Include="Assets\Level4\Scripts\Game Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\FpsControllerLPFP.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\GameOverScript.cs" />
+     <Compile Include="Assets\Level4\Scripts\Game Scripts\HealthPickup.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\ImpactScript_shotgun.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\PlayerHealthManager.cs" />

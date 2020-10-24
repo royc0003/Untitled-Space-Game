@@ -32,6 +32,10 @@ public class PlayerHealth : MonoBehaviour
             manageDeath(isDead);
         }
     }
+    public void increaseHealth(float health){
+        hitPoints+= health;
+        playerHealth.SetHealth(this.hitPoints);
+    }
     public float getPlayerHealth(){
         return this.hitPoints;
     }
