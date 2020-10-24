@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 2
+  repeatDestroy: 1
 --- !u!1 &4700993230196795546
 GameObject:
   m_ObjectHideFlags: 0
