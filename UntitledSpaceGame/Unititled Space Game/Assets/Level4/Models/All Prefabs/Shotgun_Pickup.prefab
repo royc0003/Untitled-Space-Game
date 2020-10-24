@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2621378629917480441}
   - component: {fileID: 7877687478807535875}
   - component: {fileID: 859316964440024668}
+  - component: {fileID: 7688519435147677356}
   m_Layer: 0
   m_Name: Ammo Pickup
   m_TagString: Untagged
@@ -60,6 +61,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3509353
   m_Center: {x: 0, y: -0.16651972, z: 0}
+--- !u!114 &7688519435147677356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4512437167194921041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10bb632f78f541aca41c1e28d84b783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 100
 --- !u!135 &1297155489243382199
 SphereCollider:
   m_ObjectHideFlags: 0

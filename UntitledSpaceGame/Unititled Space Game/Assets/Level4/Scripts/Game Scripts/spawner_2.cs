@@ -51,11 +51,11 @@ public class spawner_2 : MonoBehaviour
     
     private void setSpawnTime(){
         //lifeTime
-        this.spawnTime = Random.Range(50.0f, 100.0f);
+        this.spawnTime = Random.Range(20.0f, 100.0f);
     }
         private void setSpawnDelay(){
             //How long before next spawn
-        this.spawnDelay = Random.Range(50.0f, 100.0f);
+        this.spawnDelay = Random.Range(100.0f, 150.0f);
     }
 
     public bool isSpawnOnce(){

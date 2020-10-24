@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class destroyer_2 : MonoBehaviour
 {
-    public float lifeTime = 50f;
+    public float lifeTime = 50.0f;
     
     // Start is called before the first frame update
 
@@ -12,7 +12,11 @@ public class destroyer_2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       bool spawnOnce = GetComponentInParent<spawner_2>().isSpawnOnce();
+    spawner_2 testObject = GetComponentInParent<spawner_2>();
+    //error handling, incase never put as a childeren 
+    if(testObject == null) return;
+       bool spawnOnce = testObject.isSpawnOnce();
+       
         if(lifeTime > 0){
             lifeTime -= Time.deltaTime;
             if(lifeTime <= 0){
