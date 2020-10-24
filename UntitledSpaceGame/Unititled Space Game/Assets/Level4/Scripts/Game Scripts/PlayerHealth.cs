@@ -33,8 +33,17 @@ public class PlayerHealth : MonoBehaviour
         }
     }
     public void increaseHealth(float health){
-        hitPoints+= health;
-        playerHealth.SetHealth(this.hitPoints);
+        float totalHealth = this.hitPoints + health;
+        if(totalHealth >= maxHealth){
+            Debug.Log("player helath is greater than max health");
+            this.hitPoints = this.maxHealth;
+        }
+        else{
+            hitPoints+= health;
+        }
+                playerHealth.SetHealth(this.hitPoints);
+
+        
     }
     public float getPlayerHealth(){
         return this.hitPoints;

@@ -48,11 +48,12 @@ public class Ammo : MonoBehaviour
      public void increaseCurrentAmmo(AmmoType ammoType, int increaseAmount){
         if(GetAmmoSlot(ammoType)!= null){
             int temp = getAmmoAmount(ammoType) + increaseAmount;
-            if(temp == getMaxAmount(ammoType)){
+            /*if(temp == getMaxAmount(ammoType)){
                 return;
             }
-            else if(temp > getMaxAmount(ammoType)){
-                Debug.Log("IM HEREEEE: "+ temp + " maxamount: " +getMaxAmount(ammoType) );
+            else */
+            if(temp >= getMaxAmount(ammoType)){
+                Debug.Log("Beyond max amount of: "+ temp + " maxamount: " +getMaxAmount(ammoType) );
                 setAmmoAmount(ammoType,getMaxAmount(ammoType));
                 AudioSource.PlayClipAtPoint( audioManager.changeBGM(7), transform.position, 1f);
             }
