@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GroundSymbol
   m_Shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION
+  m_ShaderKeywords: _ALPHABLEND_ON _COLOROVERLAY_ON _EMISSION _FADING_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -42,11 +42,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: e12f8e30c9a7e49a589559cf53454a29, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1698f4d0a719bd6489d1129895b81235, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,11 +64,11 @@ Material:
     m_Floats:
     - _BlendOp: 0
     - _BumpScale: 1
-    - _CameraFadingEnabled: 0
+    - _CameraFadingEnabled: 1
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
     - _ColorMask: 15
-    - _ColorMode: 0
+    - _ColorMode: 3
     - _Cull: 2
     - _CullMode: 0
     - _Cutoff: 0.5
@@ -104,7 +104,7 @@ Material:
     - _WindQuality: 0
     - _ZWrite: 0
     m_Colors:
-    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _CameraFadeParams: {r: 1, g: 1, b: 0, a: 0}
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _Color: {r: 0.082282715, g: 0.082282715, b: 0.082282715, a: 1}
     - _ColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
