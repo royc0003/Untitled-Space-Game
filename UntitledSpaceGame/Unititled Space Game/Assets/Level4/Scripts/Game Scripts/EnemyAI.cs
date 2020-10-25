@@ -82,6 +82,8 @@ public class EnemyAI : MonoBehaviour
 
         GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
+
+        
     }
     private void AttackTarget(){
         GetComponent<Animator>().SetBool("attack",true);

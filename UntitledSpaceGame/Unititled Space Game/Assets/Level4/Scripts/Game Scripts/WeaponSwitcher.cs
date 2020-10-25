@@ -9,6 +9,7 @@ public class WeaponSwitcher : MonoBehaviour
     [SerializeField] int currentWeapon = 0;
     private AudioManager2 audioManager;
     private AudioClip audioClip;
+    private int previousWeapon;
     void Start()
     {
         audioManager = GetComponentInParent<AudioManager2>();
@@ -19,7 +20,7 @@ public class WeaponSwitcher : MonoBehaviour
         // Update is called once per frame
 
     void Update() {
-        int previousWeapon = currentWeapon;
+        this.previousWeapon =  currentWeapon;
 
         ProcessKeyInput();
         ProcessScrollWheel();
@@ -68,8 +69,14 @@ public class WeaponSwitcher : MonoBehaviour
     private void SetWeaponActive()
     {
         int weaponIndex = 0;
+        Transform previouslyUsedWeapon = this.gameObject.transform.GetChild(this.previousWeapon);
+        Weapon tempWeapon = previouslyUsedWeapon.GetComponent<Weapon>();
 
         foreach( Transform weapon in transform){
+            if(weaponIndex == this.previousWeapon && tempWeapon.isNotLock()== false){
+                tempWeapon.setNotLock(true);
+                Debug.Log("unlocking previous weapon of index: "+ weaponIndex);
+            }
             if(weaponIndex == currentWeapon){
                 weapon.gameObject.SetActive(true);
             }

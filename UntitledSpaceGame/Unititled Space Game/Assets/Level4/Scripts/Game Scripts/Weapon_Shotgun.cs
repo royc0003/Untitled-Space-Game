@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Weapon_Shotgun: MonoBehaviour
 {
+    
     // Start is called before the first frame update
     [SerializeField] TextManager textManager;
 
@@ -35,6 +36,7 @@ public class Weapon_Shotgun: MonoBehaviour
 
     void Start()
     {
+
      //source = GetComponent<AudioSource>();  
      //audioManager = GetComponentInParent<AudioManager>();
      //otherClip = audioManager.changeBGM(3);
@@ -43,11 +45,16 @@ public class Weapon_Shotgun: MonoBehaviour
 
     
     }
+    void OnEnable() {
+             Debug.Log("Machine gun is shooting");
+
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && Time.time > nextFire && canShoot == true){
+        if (Input.GetButton("Fire1") && Time.time > nextFire && canShoot == true ){
             nextFire = Time.time + fireRate;
             Shoot();
         }
@@ -106,5 +113,11 @@ public class Weapon_Shotgun: MonoBehaviour
         GameObject impact=Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal));
         Destroy(impact, 1);
 
+    }
+    public bool isNotLock(){
+        return this.canShoot;
+    }
+    public void setNotLock(bool set){
+        this.canShoot = set;
     }
 }
