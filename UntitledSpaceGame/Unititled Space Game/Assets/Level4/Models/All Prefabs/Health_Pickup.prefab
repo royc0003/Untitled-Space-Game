@@ -79,7 +79,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthIncrement: 20
-  playerHealth: {fileID: 0}
   audioClip: {fileID: 8300000, guid: c744d8ec950cb4edaaf1e36b41238b0f, type: 3}
 --- !u!65 &2307360511258526525
 BoxCollider:
@@ -120,6 +119,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9540792, y: 2.5032947, z: 0.4149846}
   m_Center: {x: 0, y: 1.2310425, z: 0.20749219}
+--- !u!95 &3948907331611904658
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991064306910023473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4566a139d082d4aa3b9d1ec2564ee71e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2307360510580594232
 PrefabInstance:
   m_ObjectHideFlags: 0

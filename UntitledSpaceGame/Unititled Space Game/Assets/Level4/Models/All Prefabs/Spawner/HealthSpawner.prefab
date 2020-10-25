@@ -67,8 +67,8 @@ MonoBehaviour:
   spawnee: {fileID: 2307360510125877041, guid: d14e217a0018c49fc8167caa82ad0c4f, type: 3}
   stopSpawning: 0
   spawnOnce: 0
-  spawnTime: 1
-  spawnDelay: 2.5
+  spawnTime: 20
+  spawnDelay: 100
   audioClip: {fileID: 8300000, guid: fb9b4ca3c949e48b6b8bc0edc1476c9b, type: 3}
 --- !u!1001 &5730481843751669136
 PrefabInstance:
@@ -77,6 +77,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8035449540413607251}
     m_Modifications:
+    - target: {fileID: 1625823633953454654, guid: d14e217a0018c49fc8167caa82ad0c4f,
+        type: 3}
+      propertyPath: lifeTime
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2307360510125877038, guid: d14e217a0018c49fc8167caa82ad0c4f,
         type: 3}
       propertyPath: m_LocalPosition.x
