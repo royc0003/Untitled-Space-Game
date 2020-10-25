@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+   
     // Start is called before the first frame update
     [SerializeField] TextManager textManager;
 
@@ -25,6 +26,7 @@ public class Weapon : MonoBehaviour
   //note this is for audio sources 
     
     public AudioClip otherClip;
+    
     bool canShoot = true;
 
 
@@ -34,19 +36,22 @@ public class Weapon : MonoBehaviour
      //audioManager = GetComponentInParent<AudioManager>();
      //otherClip = audioManager.changeBGM(3);
       textManager.setBulletCount(ammoSlot.getAmmoAmount(ammoType));
-        textManager.setTotalCount(ammoSlot.getAmmoAmount(ammoType));
+    textManager.setTotalCount(ammoSlot.getAmmoAmount(ammoType));
 
     
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0)&& canShoot == true){
+        Debug.Log("can i shoot?: "+ this.canShoot);
+        if (Input.GetMouseButton(0)&& canShoot == true ){
             StartCoroutine(Shoot());
         }
+        
          textManager.setBulletCount(ammoSlot.getAmmoAmount(ammoType));
-                  textManager.setTotalCount(ammoSlot.getMaxAmount(ammoType));
+        textManager.setTotalCount(ammoSlot.getMaxAmount(ammoType));
 
     }
     private IEnumerator Shoot(){
@@ -101,4 +106,12 @@ public class Weapon : MonoBehaviour
         Destroy(impact, 1);
 
     }
+    
+    public bool isNotLock(){
+        return this.canShoot;
+    }
+    public void setNotLock(bool set){
+        this.canShoot = set;
+    }
+
 }
