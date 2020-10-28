@@ -27,6 +27,7 @@ public class EndSceneManager : MonoBehaviour {
     }
 
     public void PlayEndScene() {
+        Debug.Log("Play End Scene");
         panel.SetActive(false);
         t.GetComponent<PlayableDirector>().Play();
         finished = true;

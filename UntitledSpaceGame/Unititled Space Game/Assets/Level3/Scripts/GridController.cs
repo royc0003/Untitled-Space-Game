@@ -31,7 +31,7 @@ public class GridController : MonoBehaviour {
     void Awake() {       
         gridHeight = 10;
         gridWidth = 40;
-        startX = -16;
+        startX = -15;
         curY = -3.6f;
         height = 4;
         curTime = 10f;
@@ -42,6 +42,15 @@ public class GridController : MonoBehaviour {
 
     public void setAndStartGrid(int width) {
         this.width = width;
+        if (width == 4) {
+            startX = -15;
+        }
+        else if (width == 5) {
+            startX = -16;
+        }
+        else {
+            startX = -17;
+        }
         numberOfAliensLeft = (width*height)/2;   //total number of bullets
         enemiesCount.setEnemyCount(numberOfAliensLeft);
         correct = true;

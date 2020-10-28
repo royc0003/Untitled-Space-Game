@@ -19,4 +19,12 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("Main");
         }
     }
+
+    public void Level3_Try_Again() {
+        SceneManager.LoadScene("Main");
+    }
+
+    public void Level3_Quit() {
+        Application.Quit();
+    }
 }
