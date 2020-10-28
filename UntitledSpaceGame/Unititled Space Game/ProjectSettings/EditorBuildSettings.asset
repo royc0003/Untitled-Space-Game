@@ -5,37 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Start/Main Screen.unity
     guid: 5d200d1e42b345442ab898fa1ff1886f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Cutscene1/Scene/Cutscene1.unity
     guid: e862b26b9346003458a9b2d537b3f059
-  - enabled: 1
+  - enabled: 0
     path: Assets/Cutscene2/Scene/Cutscene2.unity
     guid: 3d0cb9ba21f8a9c4dbeedb1e7d3d8284
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level1/Scenes/Level1A.unity
     guid: bcabd83ff71d492469a6f639d9382cfe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level1/Scenes/Level1B.unity
     guid: e9406ef9ea166644abc75cb7a7da3c64
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level1/Scenes/Level1C.unity
     guid: 30e0030d6ac994e4abc29f594c997103
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level1/Scenes/Level1D.unity
     guid: 965c8fd9ffb958647a981f895efe2fa9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level2/Scene/cs1.unity
     guid: ff1ad98f1731bfd4ab839f2ad381808a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level2/Scene/Obstacle Course.unity
     guid: c0d518842a06adc498fed6c1a94081d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level2/Scene/cS2.unity
     guid: 7149fe3401d8bc148974fd33a1b69436
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level3/Scenes/Start.unity
     guid: 3c558dec0f3cd3340b1f2943b67c6306
   - enabled: 1
@@ -50,22 +50,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cutscene3/Scene/Cutscene3.unity
     guid: f3887c852cacf454fbfec04dcc503aa6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Cutscene4/Scene/Cutscene4.unity
     guid: 60adad48dfdb1a746beb79e448413019
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level4/Scenes/Level4Start.unity
     guid: d3b5403666c1fad47a7be1994baf15ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level4/Scenes/Level4.unity
     guid: 6bb5a0567afb42046b1bd88816a93e9b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level4/Scenes/Level4End.unity
     guid: 2db15d2553fba634f8721a3ea4a42ece
-  - enabled: 1
+  - enabled: 0
     path: Assets/Cutscene5/Scene/Cutscene5.unity
     guid: d4b348b59534d364ca38304c00a93c77
-  - enabled: 1
+  - enabled: 0
     path: Assets/Cutscene6/Scene/Cutscene6.unity
     guid: 5f80419d39ccb2d4b8a507c87d65b70b
   m_configObjects: {}
