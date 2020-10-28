@@ -16,7 +16,7 @@ public class PickUpItem : MonoBehaviour
         //Debug.Log("triggered");
         //SceneManager.LoadScene(nextSceneToLoad);
 
-        if (collider.gameObject.tag == "Player")
+       /* if (collider.gameObject.tag == "Player")
         {
             print("item picked up");
             //StartCoroutine("ReduceSpeedAfter5Seconds");
@@ -28,7 +28,7 @@ public class PickUpItem : MonoBehaviour
             }
             Destroy(gameObject);
 
-        }
+        }*/
     }
 
     /* IEnumerator Wait()
