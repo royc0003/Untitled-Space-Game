@@ -5701,11 +5701,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   d:
     sentences:
-    - 'We need to find fuel for the rocket. '
-    - 'Should we head to the bridge first to check if we can get the fuel there? '
-    - 'I will not let you cross the bridge. '
-    - 'Wait, I remember aliens'' blood can be used as fuel. '
-    - 'You will never have the chance to get our blood if you can not locate us. '
+    - Doood... I think the rocket might not have fuel to fly...
+    - Damn.... It's kay let's head to the bridge first.
+    - Try and get pass me.
+    - OH SHIT! I REMEMBER! I heard aliens blood can be used as fuel.
+    - but CAN YOU BEAT THISSSSS
   t: {fileID: 28384515}
   textScene: {fileID: 1322314940}
 --- !u!4 &236510646
@@ -6586,7 +6586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 63728ead9cb5d804294736671588ba28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db2c70cb3d7733240ad8478d96f32dc7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10571,10 +10571,10 @@ RectTransform:
   m_Father: {fileID: 1815902975}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25.200012, y: 12}
-  m_SizeDelta: {x: 538.3015, y: 28.457703}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -320, y: 65}
+  m_SizeDelta: {x: 600, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352494960
 MonoBehaviour:
@@ -11207,7 +11207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1cbc94ccde7e2c5489522a268d333b27, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4741e086d39933488553430137f7ebc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

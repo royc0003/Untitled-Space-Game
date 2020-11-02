@@ -1024,8 +1024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You Lose
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3397b62a4fd8f4c359fc7e269dbe9c6d, type: 2}
-  m_sharedMaterial: {fileID: -8917903523902734542, guid: 3397b62a4fd8f4c359fc7e269dbe9c6d,
+  m_fontAsset: {fileID: 11400000, guid: c7e1ca1981639874ca53e2dcbd673832, type: 2}
+  m_sharedMaterial: {fileID: 1511029431475543763, guid: c7e1ca1981639874ca53e2dcbd673832,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
