@@ -5701,11 +5701,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   d:
     sentences:
-    - Doood... I think the rocket might not have fuel to fly...
-    - Damn.... It's kay let's head to the bridge first.
-    - Try and get pass me.
-    - OH SHIT! I REMEMBER! I heard aliens blood can be used as fuel.
-    - but CAN YOU BEAT THISSSSS
+    - 'We need to find fuel for the rocket. '
+    - 'Should we head to the bridge first to check if we can get the fuel there? '
+    - 'I will not let you cross the bridge. '
+    - 'Wait, I remember aliens'' blood can be used as fuel. '
+    - You will never have the chance to get our blood if you can not locate us.
   t: {fileID: 28384515}
   textScene: {fileID: 1322314940}
 --- !u!4 &236510646
@@ -10573,8 +10573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -320, y: 65}
-  m_SizeDelta: {x: 600, y: 30}
+  m_AnchoredPosition: {x: -360.1, y: 71.5}
+  m_SizeDelta: {x: 519.7916, y: 33.0857}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352494960
 MonoBehaviour:
