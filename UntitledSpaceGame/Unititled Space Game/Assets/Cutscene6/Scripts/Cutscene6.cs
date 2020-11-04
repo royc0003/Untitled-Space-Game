@@ -19,11 +19,11 @@ public class Cutscene6 : MonoBehaviour
     public void NextScene() {
         UI.gameObject.SetActive(false);
         animatorCam.SetBool("camera_move",true);
-        Invoke("LoadNextScene",10.0f);
+        Invoke("LoadNextScene",7.0f);
         return;
         
     }
     public void LoadNextScene() {
-        //SceneManager.LoadScene("Level4Start");
+        SceneManager.LoadScene("EndingScene");
     }
 }
