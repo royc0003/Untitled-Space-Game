@@ -48,6 +48,8 @@ MonoBehaviour:
   spawnee: {fileID: 3486502750018562282, guid: ff166b53e7f94449abb6da56778214f2, type: 3}
   stopSpawning: 0
   spawnOnce: 0
+  lifeTime: 20
+  clone: {fileID: 0}
   spawnTime: 20
   spawnDelay: 10
   audioClip: {fileID: 8300000, guid: fb9b4ca3c949e48b6b8bc0edc1476c9b, type: 3}
@@ -103,17 +105,27 @@ PrefabInstance:
     - target: {fileID: 7488817023795643271, guid: ff166b53e7f94449abb6da56778214f2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.43308926
+      value: 0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: 7488817023795643271, guid: ff166b53e7f94449abb6da56778214f2,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9013511
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 7488817023795643271, guid: ff166b53e7f94449abb6da56778214f2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -51.328003
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488817023795643271, guid: ff166b53e7f94449abb6da56778214f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488817023795643271, guid: ff166b53e7f94449abb6da56778214f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7555585808156449727, guid: ff166b53e7f94449abb6da56778214f2,
         type: 3}

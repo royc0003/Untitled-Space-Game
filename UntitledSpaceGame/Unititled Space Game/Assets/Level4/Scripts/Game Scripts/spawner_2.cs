@@ -9,6 +9,10 @@ public class spawner_2 : MonoBehaviour
     public GameObject spawnee;
     public bool stopSpawning = false;
     public bool spawnOnce = false;
+    public float lifeTime = 20.0f;
+    
+    public GameObject clone;
+    
 
 
     public float spawnTime;
@@ -20,7 +24,7 @@ public class spawner_2 : MonoBehaviour
   void Awake(){
       if(spawnOnce == true){
         CancelInvoke("SpawnObject");
-        Instantiate(spawnee, spawnPos.position, spawnPos.rotation);
+        clone = Instantiate(spawnee, spawnPos.position, spawnPos.rotation);
 
 
       }
@@ -32,15 +36,29 @@ public class spawner_2 : MonoBehaviour
     
       
   }
+    void Update()
+    {    //error handling, incase never put as a childeren 
+       bool spawnOnce = isSpawnOnce();
+        if(lifeTime > 0){
+            lifeTime -= Time.deltaTime;
+            if(lifeTime <= 0){
+                if(spawnOnce == true) return;
+
+                    Destroy(clone);
+
+                
+            }
+        }
+    }
 
   public void SpawnObject(){
-        Instantiate(spawnee, spawnPos.position, spawnPos.rotation);
+        clone = Instantiate(spawnee, spawnPos.position, spawnPos.rotation);
         setSpawnTime();
         setSpawnDelay();
         if(audioClip != null){
             AudioSource.PlayClipAtPoint(audioClip, transform.position, 50f);
         }
-
+        this.lifeTime = 20.0f;
 
         if(stopSpawning){
             CancelInvoke("SpawnObject");
@@ -51,14 +69,17 @@ public class spawner_2 : MonoBehaviour
     
     private void setSpawnTime(){
         //lifeTime
-        this.spawnTime = Random.Range(20.0f, 100.0f);
+        //this.spawnTime = Random.Range(20.0f, 100.0f);
+        this.spawnTime = 25.0f;
     }
         private void setSpawnDelay(){
             //How long before next spawn
-        this.spawnDelay = Random.Range(100.0f, 150.0f);
+        //this.spawnDelay = Random.Range(100.0f, 150.0f);
+        this.spawnDelay = 30.0f;
     }
 
     public bool isSpawnOnce(){
         return this.spawnOnce;
     }
+
 }
