@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class destroyer_2 : MonoBehaviour
 {
-    public float lifeTime = 50.0f;
+    public float lifeTime = 20.0f;
     
     // Start is called before the first frame update
 
