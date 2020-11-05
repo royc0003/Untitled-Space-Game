@@ -7,24 +7,22 @@ using UnityEngine.SceneManagement;
 public class Cutscene5 : MonoBehaviour
 {
     public Button button;
-    public Animator animatorRocket;
+    public Animator animatorCamera;
     // Start is called before the first frame update
     void Start()
     {
-        animatorRocket.SetBool("fly",false);
+        animatorCamera.SetBool("camera_move",false);
         button.onClick.AddListener(NextScene);
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
     }
     
     public void NextScene() {
         button.gameObject.SetActive(false);
-        animatorRocket.SetBool("fly",true);
-        Invoke("LoadNextScene",10.0f);
+        animatorCamera.SetBool("camera_move",true);
+        Invoke("LoadNextScene",3.5f);
         return;
         
     }
     public void LoadNextScene() {
-        SceneManager.LoadScene("Cutscene6");
+        SceneManager.LoadScene("Level4Start");
     }
 }

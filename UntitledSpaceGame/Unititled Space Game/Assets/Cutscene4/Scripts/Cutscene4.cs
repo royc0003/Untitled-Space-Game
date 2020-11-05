@@ -7,22 +7,28 @@ using UnityEngine.SceneManagement;
 public class Cutscene4 : MonoBehaviour
 {
     public Button button;
-    public Animator animatorCamera;
+    public GameObject UI;
+    public Animator animatorFuel;
     // Start is called before the first frame update
     void Start()
     {
-        animatorCamera.SetBool("camera_move",false);
+        animatorFuel.SetBool("pour",false);
+        UI.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         button.onClick.AddListener(NextScene);
     }
     
+
     public void NextScene() {
         button.gameObject.SetActive(false);
-        animatorCamera.SetBool("camera_move",true);
-        Invoke("LoadNextScene",3.5f);
+        animatorFuel.SetBool("pour",true);
+        Invoke("LoadNextScene",3.0f);
         return;
         
     }
     public void LoadNextScene() {
-        SceneManager.LoadScene("Level4Start");
+        SceneManager.LoadScene("Cutscene4");
     }
+    
 }
