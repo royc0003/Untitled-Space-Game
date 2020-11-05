@@ -214,6 +214,7 @@
      <Compile Include="Assets\Level4\Scripts\Game Scripts\Weapon_Shotgun.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\destroyer_2.cs" />
      <Compile Include="Assets\Level4\Scripts\Game Scripts\spawner_2.cs" />
+     <Compile Include="Assets\Level4\Scripts\Tutorial Scripts\TutorialManager.cs" />
      <Compile Include="Assets\Planet Earth Free\SpinFree.cs" />
      <None Include="Assets\Level4\Fonts\read_this.txt" />
      <None Include="Assets\Level1\Imports\TextMesh Pro\Shaders\TMPro.cginc" />
