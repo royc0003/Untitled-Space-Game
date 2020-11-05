@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject button;
     public GameObject continueButton;
     public string sceneToLoad;
+    //public static bool flag = true;
 
     void Start()
     {
@@ -35,8 +36,9 @@ public class DialogueManager : MonoBehaviour
         foreach(string sentence in dialogue.sentences){
             sentences.Enqueue(sentence);
         }
-
+    
         DisplayNextSentence();
+        
     }
 
     public void DisplayNextSentence(){
@@ -45,11 +47,13 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
         Debug.Log(sentence);
+        
     }
 
     IEnumerator TypeSentence(string sentence){
