@@ -59,6 +59,8 @@
      <Compile Include="Assets\Cutscene1\Scripts\Typewriter1.cs" />
      <Compile Include="Assets\Cutscene2\Scripts\Cutscene2.cs" />
      <Compile Include="Assets\Cutscene2\Scripts\Typewriter2.cs" />
+     <Compile Include="Assets\Cutscene3\Scripts\Cutscene3.cs" />
+     <Compile Include="Assets\Cutscene3\Scripts\Typewriter3.cs" />
      <Compile Include="Assets\Cutscene4\Scripts\Cutscene4.cs" />
      <Compile Include="Assets\Cutscene4\Scripts\Typewriter4.cs" />
      <Compile Include="Assets\Cutscene5\Scripts\Cutscene5.cs" />
