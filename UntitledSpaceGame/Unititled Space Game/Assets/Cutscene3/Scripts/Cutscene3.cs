@@ -27,7 +27,7 @@ public class Cutscene3 : MonoBehaviour
 
     public void StartDialogue(Cutscene3Dialogue dialogue)
     {
-        Invoke("ChangeValueOfOpenToTrue",12f);
+        Invoke("ChangeValueOfOpenToTrue",0.5f);
         
         sentences.Clear();
 
@@ -44,7 +44,7 @@ public class Cutscene3 : MonoBehaviour
         if (sentences.Count == 0)
         {
             animatorText.SetBool("IsOpen", false);
-            Invoke("EndDialogue", 3f);
+            Invoke("EndDialogue", 0.5f);
             return;
         }
 

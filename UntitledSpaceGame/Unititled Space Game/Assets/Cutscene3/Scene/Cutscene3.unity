@@ -290,7 +290,7 @@ RectTransform:
   - {fileID: 679724020}
   - {fileID: 279032090}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -578,8 +578,8 @@ GameObject:
   - component: {fileID: 279032090}
   - component: {fileID: 279032094}
   - component: {fileID: 279032093}
-  - component: {fileID: 279032092}
   - component: {fileID: 279032091}
+  - component: {fileID: 279032092}
   m_Layer: 5
   m_Name: TESTTEST
   m_TagString: Untagged
@@ -616,20 +616,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 279032089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ba9d71f5660a5644a8c0003c9fcb46e, type: 3}
+  m_Script: {fileID: 11500000, guid: 662e0ea0f8b90c046a0fe8abb02819d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - The rocket's maximum capacity is only for 1 person... Did you know this all
-      along?
-    - So you finally found out. Took you long enough! How did it feel like being
-      used all this time?
-    - How could you betray me like this? I thought we were comrades.
-    - I'll do everything it takes to get back to Earth, and that includes destroying
-      you. Are you ready to be crushed by me?
-    - Bring it on.
-  timeline: {fileID: 0}
+    - Woah... I think I see the rocket in the distance. I can't wait till I get back
+      home!
+    - Same here. Speaking of which, what's the first thing you wanna do when you
+      get back to Earth?
+    - I just want to return to my normal, boring job. However, I've been stuck in
+      a slump recently. My work hasn't felt rewarding lately.
+    - Hmm... just take it slow man. Things will turn for the better someday, as long
+      as you keep going.
+    - Thanks bro, I hope so. If I ever become successful, I'll be sure to remember
+      you. I'll try to include you somewhere in my projects, haha!
+    - Sure, I'll be looking forward to that! Enough chit-chat for now, let's continue
+      moving towards the rocket.
+    - Okay, let's go!
   textScene: {fileID: 11995030}
 --- !u!114 &279032092
 MonoBehaviour:
@@ -674,8 +678,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 279032091}
-        m_MethodName: TriggerDialogue
+      - m_Target: {fileID: 1569690458}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -968,7 +972,7 @@ Transform:
   - {fileID: 235377464}
   - {fileID: 554550174}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &484975886 stripped
 GameObject:
@@ -1138,7 +1142,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &679724019
 GameObject:
@@ -1866,7 +1870,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 120, y: 0, z: 0}
 --- !u!1001 &1097947598
 PrefabInstance:
@@ -2161,7 +2165,7 @@ Transform:
   - {fileID: 1643065960}
   - {fileID: 1350304907}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1286928020 stripped
 Transform:
@@ -2238,7 +2242,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1623333078
 GameObject:
@@ -2384,7 +2388,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1783802712
 PrefabInstance:
