@@ -667,7 +667,7 @@ MonoBehaviour:
   animator: {fileID: 1840258915}
   button: {fileID: 1143056655}
   continueButton: {fileID: 1969736877}
-  sceneToLoad: Start
+  sceneToLoad: Cutscene3
 --- !u!4 &376347237
 Transform:
   m_ObjectHideFlags: 0
