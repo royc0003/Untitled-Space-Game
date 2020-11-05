@@ -6516,8 +6516,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: I can't wait to get back! Maybe we should keep in touch when we get back
-    to Earth!
+  m_Text: That was fun! Let's go to the arcade and shoot targets when we return to
+    Earth!
 --- !u!222 &352054173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7858,7 +7858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: .............. Sure.
+  m_Text: ...... Sure, if we both make it back alive.
 --- !u!222 &676839113
 CanvasRenderer:
   m_ObjectHideFlags: 0
