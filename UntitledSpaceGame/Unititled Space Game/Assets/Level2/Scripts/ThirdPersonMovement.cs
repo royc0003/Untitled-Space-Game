@@ -46,8 +46,13 @@ public class ThirdPersonMovement : MonoBehaviour
 
     }*/
 
-        // Update is called once per frame
-        void Update()
+    void Start()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    // Update is called once per frame
+    void Update()
     {
 
         if (Input.GetMouseButtonDown(0) && !animator.GetCurrentAnimatorStateInfo(0).IsName("attack"))
