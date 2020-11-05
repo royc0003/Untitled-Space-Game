@@ -23,6 +23,6 @@ public class RocketCollidingScript : MonoBehaviour
 
     public void EndDialogue()
     {
-        SceneManager.LoadScene("Cutscene5");
+        SceneManager.LoadScene("Cutscene6");
     }
 }
