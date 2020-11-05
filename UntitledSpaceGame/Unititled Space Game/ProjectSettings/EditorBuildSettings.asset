@@ -27,13 +27,13 @@ EditorBuildSettings:
     path: Assets/Level1/Scenes/Level1D.unity
     guid: 965c8fd9ffb958647a981f895efe2fa9
   - enabled: 1
-    path: Assets/Level2/Scene/cs1.unity
+    path: Assets/Level2/Scenes/cs1.unity
     guid: ff1ad98f1731bfd4ab839f2ad381808a
   - enabled: 1
-    path: Assets/Level2/Scene/Obstacle Course.unity
+    path: Assets/Level2/Scenes/Obstacle Course.unity
     guid: c0d518842a06adc498fed6c1a94081d9
   - enabled: 1
-    path: Assets/Level2/Scene/cS2.unity
+    path: Assets/Level2/Scenes/cS2.unity
     guid: 7149fe3401d8bc148974fd33a1b69436
   - enabled: 1
     path: Assets/Level3/Scenes/Start.unity
