@@ -59,14 +59,14 @@
      <Compile Include="Assets\Cutscene1\Scripts\Typewriter1.cs" />
      <Compile Include="Assets\Cutscene2\Scripts\Cutscene2.cs" />
      <Compile Include="Assets\Cutscene2\Scripts\Typewriter2.cs" />
-     <Compile Include="Assets\Cutscene3\Scripts\Cutscene3.cs" />
-     <Compile Include="Assets\Cutscene3\Scripts\Typewriter3.cs" />
      <Compile Include="Assets\Cutscene4\Scripts\Cutscene4.cs" />
      <Compile Include="Assets\Cutscene4\Scripts\Typewriter4.cs" />
      <Compile Include="Assets\Cutscene5\Scripts\Cutscene5.cs" />
      <Compile Include="Assets\Cutscene5\Scripts\Typewriter5.cs" />
      <Compile Include="Assets\Cutscene6\Scripts\Cutscene6.cs" />
      <Compile Include="Assets\Cutscene6\Scripts\Typewriter6.cs" />
+     <Compile Include="Assets\Cutscene7\Scripts\Cutscene7.cs" />
+     <Compile Include="Assets\Cutscene7\Scripts\Typewriter7.cs" />
      <Compile Include="Assets\EndingScene\Scripts\EndingScene.cs" />
      <Compile Include="Assets\Level1\Animation\Animation2.cs" />
      <Compile Include="Assets\Level1\Imports\Starfield Skybox\Demo\Script\LookCamera.cs" />

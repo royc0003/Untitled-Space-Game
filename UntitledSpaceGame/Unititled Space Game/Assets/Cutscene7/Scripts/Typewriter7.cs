@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Typewriter3 : MonoBehaviour
+public class Typewriter7 : MonoBehaviour
 {
     Text txt;
 	string story;

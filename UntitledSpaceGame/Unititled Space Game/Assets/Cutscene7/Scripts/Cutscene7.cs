@@ -4,31 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Cutscene3 : MonoBehaviour
+public class Cutscene7 : MonoBehaviour
 {
     public Button button;
+    public Animator animatorCam;
     public GameObject UI;
-    public Animator animatorFuel;
     // Start is called before the first frame update
     void Start()
     {
-        animatorFuel.SetBool("pour",false);
-        UI.SetActive(true);
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+        animatorCam.SetBool("camera_move",false);
         button.onClick.AddListener(NextScene);
     }
     
-
     public void NextScene() {
-        button.gameObject.SetActive(false);
-        animatorFuel.SetBool("pour",true);
-        Invoke("LoadNextScene",3.0f);
+        UI.gameObject.SetActive(false);
+        animatorCam.SetBool("camera_move",true);
+        Invoke("LoadNextScene",7.0f);
         return;
         
     }
     public void LoadNextScene() {
-        SceneManager.LoadScene("Cutscene4");
+        SceneManager.LoadScene("EndingScene");
     }
-    
 }
