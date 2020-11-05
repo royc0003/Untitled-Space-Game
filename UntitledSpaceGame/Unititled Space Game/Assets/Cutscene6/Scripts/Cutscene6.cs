@@ -25,6 +25,6 @@ public class Cutscene6 : MonoBehaviour
         
     }
     public void LoadNextScene() {
-        SceneManager.LoadScene("Cutscene6");
+        SceneManager.LoadScene("Cutscene7");
     }
 }
