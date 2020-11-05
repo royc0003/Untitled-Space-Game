@@ -32886,6 +32886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStage: Level1D
+  lockEnabled: 1
   pauseMenuUI: {fileID: 1863310118}
 --- !u!114 &1706659607
 MonoBehaviour:
