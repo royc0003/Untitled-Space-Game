@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public static Queue<string> sentences; //Put sentences into queue, load each word at the end of queue
     public GameObject button;
+    public GameObject continueButton;
     public string sceneToLoad;
 
     void Start()
@@ -54,9 +55,12 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence(string sentence){
         dialogueText.text = "";
         foreach(char letter in sentence.ToCharArray()){
+            continueButton.SetActive(false);
             dialogueText.text += letter; //Append each letter to the end of string
+            yield return new WaitForSeconds(0.01f);
             yield return null;
         }
+        continueButton.SetActive(true);
     }
 
     void EndDialogue(){
