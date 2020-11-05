@@ -12407,6 +12407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frenemyTrapped: {fileID: 158012624}
   frenemyFollow: {fileID: 2142315531}
+  helpText: {fileID: 885312519}
 --- !u!65 &1065631752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13060,7 +13061,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7686e0a75fc0f9449bfe6b935114b707, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f119332b45093e84eb82943611f1e2b6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

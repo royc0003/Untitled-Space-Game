@@ -85,7 +85,7 @@ public class StartingDialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("Level4Tutorial");
     }
 
 }
