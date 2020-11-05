@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6a2dce78f8549b389a5a048352c531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textManager: {fileID: 0}
   FPCamera: {fileID: 3126347609059183192}
   range: 100
   damage: 30
@@ -182,6 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf856bd5006c24a98a01bccfa040dc1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textManager: {fileID: 0}
   timeBetweenShots: 0.5
   FPCamera: {fileID: 3126347609059183192}
   range: 100
@@ -340,6 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf856bd5006c24a98a01bccfa040dc1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textManager: {fileID: 0}
   timeBetweenShots: 0.9
   FPCamera: {fileID: 3126347609059183192}
   range: 100
@@ -360,7 +363,7 @@ PrefabInstance:
     - target: {fileID: 2012695595795355129, guid: ffe22295dee634e48b434eda60b53f02,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2032050945735670646, guid: ffe22295dee634e48b434eda60b53f02,
         type: 3}
@@ -510,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 2fb4becc61d15304eb995f08a30eb3b7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 2fb4becc61d15304eb995f08a30eb3b7, type: 3}
       propertyPath: m_LocalPosition.x

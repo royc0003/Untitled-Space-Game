@@ -19,6 +19,8 @@ public class WeaponZoom : MonoBehaviour
     public AudioClip zoomClip;
     private AudioManager2 ADM;
 
+    private int counter = 0;
+
     FpsControllerLPFP fpsController;
 
 
@@ -40,30 +42,35 @@ public class WeaponZoom : MonoBehaviour
         if(Input.GetMouseButtonDown(1)){
             if(zoomedInToggle == false)
             {
-                ZoomIn();
+                AudioSource.PlayClipAtPoint(zoomClip, transform.position, 0.7f);
             }
             else
             {
-                ZoomOut();
+                AudioSource.PlayClipAtPoint(zoomClip, transform.position, 0.7f);
 
             }
         }
+
+        if(Input.GetMouseButton(1)){
+            ZoomIn();
+        }
+        else{
+            ZoomOut();
+        }
+
     }
 
     private void ZoomOut()
     {
         fpsController.setMouseSensitivity(zoomOutSensitivity);
-
         zoomedInToggle = false;
         fpsCamera.fieldOfView = this.zoomedOutFOV;
-        AudioSource.PlayClipAtPoint(zoomClip, transform.position, 0.7f);
     }
 
     private void ZoomIn()
     {
         zoomedInToggle = true;
         fpsCamera.fieldOfView = this.zoomedInFOV;
-        AudioSource.PlayClipAtPoint(zoomClip, transform.position, 0.7f);
         fpsController.setMouseSensitivity(zoomInSensitivity);
     }
 

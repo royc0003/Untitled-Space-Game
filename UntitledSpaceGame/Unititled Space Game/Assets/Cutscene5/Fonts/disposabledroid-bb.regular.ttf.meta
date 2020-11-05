@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 52f4f963b8d4d2f438ee3439927bf238
+guid: 04425085081db734587cc017c309aa01
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -14,11 +14,9 @@ TrueTypeFontImporter:
   fallbackFontReferences:
   - {fileID: 12800000, guid: a52200017c37b0149a5071c1ec72dcae, type: 3}
   - {fileID: 12800000, guid: 312510a19f5404f4980c0cc866616fb9, type: 3}
-  - {fileID: 12800000, guid: 04425085081db734587cc017c309aa01, type: 3}
   - {fileID: 12800000, guid: 31ce9ad53ac6df141b60484edeb0ca37, type: 3}
   - {fileID: 12800000, guid: 4544fba7954d199489ba7e7f9402b535, type: 3}
   - {fileID: 12800000, guid: 281a8869483512d4f86289a105fba42d, type: 3}
-  - {fileID: 12800000, guid: 4c5a759c37fae04498c4db238b02b1db, type: 3}
   - {fileID: 12800000, guid: 45735b8d05fa57248878751eae5e4ce8, type: 3}
   - {fileID: 12800000, guid: 28728a2eb40b77144976c670018a5a30, type: 3}
   - {fileID: 12800000, guid: d968d13fd48e1e946b001b4e3f5379d7, type: 3}

@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public string currentStage;
+    public bool lockEnabled;
 
     public GameObject pauseMenuUI;
     //public GameObject otherPrompts;
@@ -35,7 +36,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        Screen.lockCursor = true;
+        if(lockEnabled){Screen.lockCursor = true;}
+       
     }
 
     public void Quit()

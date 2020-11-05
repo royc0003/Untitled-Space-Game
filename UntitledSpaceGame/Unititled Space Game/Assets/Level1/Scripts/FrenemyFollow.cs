@@ -6,6 +6,7 @@ public class FrenemyFollow : MonoBehaviour
 {
     public GameObject frenemyTrapped;
     public GameObject frenemyFollow;
+    public GameObject helpText;
 
     bool inTrigger = false;
 
@@ -13,6 +14,7 @@ public class FrenemyFollow : MonoBehaviour
     {
         frenemyTrapped.GetComponent<Renderer>().enabled = true;
         frenemyFollow.GetComponent<Renderer>().enabled = false;
+        helpText.GetComponent<Renderer>().enabled = true;
     }
 
     void Update()
@@ -20,7 +22,8 @@ public class FrenemyFollow : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.F) && inTrigger)
         {
             frenemyTrapped.GetComponent<Renderer>().enabled = false;
-            frenemyFollow.GetComponent<Renderer>().enabled = true;        
+            frenemyFollow.GetComponent<Renderer>().enabled = true; 
+            helpText.GetComponent<Renderer>().enabled = false;  
         }
     }
 

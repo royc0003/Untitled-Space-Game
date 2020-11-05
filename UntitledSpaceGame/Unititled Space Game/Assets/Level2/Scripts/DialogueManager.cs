@@ -10,7 +10,9 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public static Queue<string> sentences; //Put sentences into queue, load each word at the end of queue
     public GameObject button;
+    public GameObject continueButton;
     public string sceneToLoad;
+    //public static bool flag = true;
 
     void Start()
     {
@@ -34,8 +36,9 @@ public class DialogueManager : MonoBehaviour
         foreach(string sentence in dialogue.sentences){
             sentences.Enqueue(sentence);
         }
-
+    
         DisplayNextSentence();
+        
     }
 
     public void DisplayNextSentence(){
@@ -44,19 +47,24 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
         Debug.Log(sentence);
+        
     }
 
     IEnumerator TypeSentence(string sentence){
         dialogueText.text = "";
         foreach(char letter in sentence.ToCharArray()){
+            continueButton.SetActive(false);
             dialogueText.text += letter; //Append each letter to the end of string
+            yield return new WaitForSeconds(0.01f);
             yield return null;
         }
+        continueButton.SetActive(true);
     }
 
     void EndDialogue(){
