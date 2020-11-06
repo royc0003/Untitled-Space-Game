@@ -12,7 +12,7 @@ public class EndingScene : MonoBehaviour
     void Start()
     {
         animatorText.SetBool("scroll",true);
-        Invoke("LoadNextScene",22.0f);
+        Invoke("LoadNextScene",26.0f);
     }
     
     public void LoadNextScene() {
