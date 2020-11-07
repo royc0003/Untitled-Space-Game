@@ -573,9 +573,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I took off from the planet and managed to successfully land on Earth after
-    reading manuals in the rocket. It was a bumpy but exhilarating ride home. Home
-    sweet home!
+  m_Text: I found operation manuals in the cockpit and luckily enough they were simple
+    to follow. I managed to land safely back on Earth after a bumpy ride through
+    space despite it being my first time. Home at last!
 --- !u!222 &333472971
 CanvasRenderer:
   m_ObjectHideFlags: 0

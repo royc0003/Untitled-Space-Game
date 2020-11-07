@@ -9102,8 +9102,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The rocket's maximum capacity is only for 1 person... Did you know this
-    all along?
+  m_Text: The rocket's maximum capacity is 1 person... Did you know this all along?
 --- !u!222 &1031691190
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17396,14 +17395,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - The rocket's maximum capacity is only for 1 person... Did you know this all
-      along?
-    - So you finally found out. Took you long enough! How did it feel like being
-      used all this time?
-    - How could you betray me like this? I thought we were comrades.
-    - I'll do everything it takes to get back to Earth, and that includes destroying
-      you. Are you ready to be crushed by me?
-    - Bring it on.
+    - The rocket's maximum capacity is 1 person... Did you know this all along?
+    - So you finally found out. Took you long enough! How does it feel to know I
+      was using you all this time?
+    - How could you betray me like this? I thought we were friends.
+    - I'll do everything it takes to get back to Earth, and that includes killing
+      you. In fact, I'll get rid of you right now!
+    - ...bring it on.
   timeline: {fileID: 1457672321}
   textScene: {fileID: 6134441}
 --- !u!4 &1941894705

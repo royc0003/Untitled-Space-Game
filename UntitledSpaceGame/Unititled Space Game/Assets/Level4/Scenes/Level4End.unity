@@ -9176,7 +9176,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: The gates to the rocket are open. It's time to leave this planet. I'll
-    need to board the rocket first and try to takeoff.
+    need to figure out how to operate it myself...
 --- !u!222 &1031691190
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12534,7 +12534,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Task:
 
-    -Move to the spaceship.'
+    -Head to the spaceship.'
 --- !u!222 &1385240951
 CanvasRenderer:
   m_ObjectHideFlags: 0

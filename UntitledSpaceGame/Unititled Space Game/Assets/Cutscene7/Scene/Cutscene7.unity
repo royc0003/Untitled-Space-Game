@@ -934,9 +934,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: After I settled down back on Earth, I documented my adventures, and decided
-    to turn it into a piece of work. It became a huge success and I'm doing very
-    well right now. That piece of work is what you may know it as...
+  m_Text: After taking some time to ease myself back into my life on Earth, I documented
+    my experience and decided to make it my next big project. Nowadays, everyone
+    has heard of my work. Whats the title of my work, you might ask? Well, its...
 --- !u!222 &333472971
 CanvasRenderer:
   m_ObjectHideFlags: 0

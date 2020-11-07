@@ -2339,11 +2339,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - Now, let us think of how we should move forward...
-    - I think I overheard the aliens discussing about a rocket that's nearby while
-      I was stuck at the lab.
-    - I vaguely remember the location that they talked about. Let's try and make
-      our way there!
+    - Where should we go next?
+    - I think I overheard the aliens discussing about a nearby rocket while I was
+      stuck in the lab.
+    - Oh yeah! I vaguely remember the location that they mentioned. Let's try to
+      make our way there!
 --- !u!114 &1143056658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3628,7 +3628,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oh there you are... Seems like we both managed to shake them off!
+  m_Text: Oh, there you are! Seems like we both managed to shake them off!
 --- !u!222 &1840794386
 CanvasRenderer:
   m_ObjectHideFlags: 0

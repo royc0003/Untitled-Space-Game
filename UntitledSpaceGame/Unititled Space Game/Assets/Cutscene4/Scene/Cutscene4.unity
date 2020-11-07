@@ -593,9 +593,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: We reached the rocket launch site after walking for a while. My friend
-    asked me to refill the fuel for the rocket while he figured how to get the rocket
-    working. I entered the rocket and poured fuel down the fuel pipe.
+  m_Text: We reached the rocket launch site after walking for a while. He told me
+    to load the fuel for the rocket while he figured out how to get it working. I
+    entered the rocket and poured the fuel down the fuel pipe.
 --- !u!222 &613575626
 CanvasRenderer:
   m_ObjectHideFlags: 0
