@@ -1185,9 +1185,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One cloudy night while walking home from work, a ray of light suddenly
-    shone upon me. I looked up to see a UFO hovering above me. I blacked out while
-    I was being sucked into the UFO.
+  m_Text: As I was walking home from work one cloudy night, the ground suddenly lit
+    up around me. I looked up to see a UFO hovering above, shining a ray of light
+    towards me. As my feet left the ground and I began floating towards the UFO,
+    I blacked out.
 --- !u!222 &683101463
 CanvasRenderer:
   m_ObjectHideFlags: 0

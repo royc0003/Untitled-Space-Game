@@ -1031,9 +1031,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I woke up, finding myself in a room of what seems to be a laboratory. There
-    was a portal right in front of me. Would it bring me out of here? There's only
-    one way to find out. I stepped into the portal, not knowing what to expect.
+  m_Text: I woke up to find myself in what appears to be a laboratory. I saw a portal
+    in the room and began asking myself questions. Where would it lead me? There
+    was only one way to find out. I stepped into the portal, bracing myself for whatever
+    was on the other side.
 --- !u!222 &642844684
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -10267,9 +10267,9 @@ MonoBehaviour:
   dialogue:
     sentences:
     - I see a city nearby. Let's go through it and try to shake off the aliens before
-      deciding where we should go from here!
+      deciding our next move!
     - Watch out for the falling balls and obstacles on the way!
-    - AHH they're coming.. RUNNN!!!!!
+    - They're getting closer! Lets go! Now!
 --- !u!114 &1143056658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15458,7 +15458,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'We managed to get out of the lab! But oh no... I see the aliens chasing
+  m_Text: 'We managed to get out of the lab! Oh no... I can see the aliens chasing
     us from here. '
 --- !u!222 &1840794386
 CanvasRenderer:

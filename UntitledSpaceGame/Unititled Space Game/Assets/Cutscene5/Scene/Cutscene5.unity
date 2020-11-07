@@ -522,9 +522,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: As I was about to leave, I saw a poster near the door which stated that
-    the maximum capacity of the rocket was only 1 person. Hmm.... did my friend know
-    this? I hurriedly left the rocket to confront him about this.
+  m_Text: As I was about to leave, I saw a poster near the door stating that the
+    rocket had a maximum capacity of 1 person. Hmm.... did he know about this? I
+    hurriedly left the rocket to confront him.
 --- !u!222 &613575626
 CanvasRenderer:
   m_ObjectHideFlags: 0
