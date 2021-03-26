@@ -46,10 +46,10 @@ _Click the image (below) to be re-directed to the live demo_
 - Developing an immersive gaming platform requires multiple iterations and these were our initial storyboarding. 
 ### Stage 1
 [stage1_part1]\
-<img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="20%" width="50%"/>
+<img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="20%" width="50%"/>\
 [stage1_part2]\
-<img src="/images/initial/stage1/Stage 1 Storyboard 2.png" height="20%" width="50%"/>
+<img src="/images/initial/stage1/Stage 1 Storyboard 2.png" height="20%" width="50%"/>\
 [stage1_part3]\
-<img src="/images/initial/stage1/Stage 1 Storyboard 3.png" height="20%" width="50%"/>
+<img src="/images/initial/stage1/Stage 1 Storyboard 3.png" height="20%" width="50%"/>\
 [stage1_part4]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 4.png" height="20%" width="50%"/>
