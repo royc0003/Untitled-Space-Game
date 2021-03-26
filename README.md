@@ -133,11 +133,11 @@ Inspired by krunker.io (a FPS game) coupled with the parkour mechanics that are 
 
 #### What did we do to make the game immersive?
 ##### Mechanics
-To have a level designed for a combat-oriented flow experience, we have implemented a sheer variety of weapons that the player can choose from. 
+To have a level designed for a combat-oriented flow experience, we have implemented a sheer variety of weapons that the player can choose from.\
 <img src="/images/level4/Level 4 Weapon Switch.gif" height="20%" width="50%"/>\
 
 ##### Contrasting size
-We used both the element of contrasting size and elevations to elicit the menacing character from the protagonist.
+We used both the element of contrasting size and elevations to elicit the menacing character from the protagonist.\
 <img src="/images/level4/Level 4 Menacing Boss.gif" height="20%" width="50%"/>\
 
 ##### Appreciation
