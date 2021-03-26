@@ -75,6 +75,7 @@ Developing an immersive gaming platform requires multiple iterations and these w
 <img src="/images/initial/stage4/Stage 4 Storyboard.png" height="20%" width="50%"/>\
 
 ## Design Decisions Based on Levels
+Are you feeling inspired?\
 Curious to know more about why they've implemented `Untitled Space Game` in such a manner?\
 Let's hear directly from the developers of the `Untitled Space Game`.\
 **Warning**: _long story ahead_
