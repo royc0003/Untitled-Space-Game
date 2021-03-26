@@ -43,13 +43,21 @@ _Click the image (below) to be re-directed to the live demo_
 <img src="/images/requirements.png" width="80%" height="80%">
 
 ## Humble Beginnings
-- Developing an immersive gaming platform requires multiple iterations and these were our initial storyboarding. 
+Developing an immersive gaming platform requires multiple iterations and these were our _initial storyboard_. 
 ### Stage 1
-[stage1_part1]\
+[stage1 part1]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="20%" width="50%"/>\
-[stage1_part2]\
+[stage1 part2]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 2.png" height="20%" width="50%"/>\
-[stage1_part3]\
+[stage1 part3]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 3.png" height="20%" width="50%"/>\
-[stage1_part4]\
+[stage1 part4]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 4.png" height="20%" width="50%"/>
+
+### Stage 2
+[stage2 part1]\
+<img src="/images/initial/stage2/Stage 2 Storyboard 1.png" height="20%" width="50%"/>\
+[stage2 part2]\
+<img src="/images/initial/stage2/Stage 2 Storyboard 2.png" height="20%" width="50%"/>\
+[stage2 part3]\
+<img src="/images/initial/stage2/Stage 2 Storyboard 3.png" height="20%" width="50%"/>
