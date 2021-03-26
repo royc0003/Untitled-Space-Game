@@ -45,4 +45,4 @@ _Click the image (below) to be re-directed to the live demo_
 ## Humble Beginnings
 - Developing an immersive gaming platform requires multiple iterations and these were our initial storyboarding. 
 ### Stage 1
-<img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="50%" width="auto"/>
+<img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="20%" width="50%"/>
