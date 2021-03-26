@@ -2,12 +2,6 @@
 Traverse through the different levels as you try to find your way back to Earth after being abducted by aliens! Test your skills by completing puzzles, navigating obstacles, and overcoming various other challenges that await you.\
 Designed using: `Unity3D`
 
-## Design Decisions
-- Why did we choose this theme?
-    - Provide a game that gives an out-of-this-world experience.
-- Why did we implement multiple genres?
-    - Different levels were based on different genres to provide a diverse gaming experience, thus catering to a wider audience. The variety of genres provides challenges that target different skill sets of the player.
-
 ## The Storyline (Briefly)
 After getting abducted by a UFO, the main character realizes he is in a strange laboratory room.\
 
@@ -38,8 +32,17 @@ The main character flew the rocket and managed to land safely back on Earth. He 
 _Click the image (below) to be re-directed to the live demo_
 [![Untitled Space Game](http://img.youtube.com/vi/mXOotM3wYLU/0.jpg)](http://www.youtube.com/watch?v=mXOotM3wYLU "SCSE Software System Analysis and Design - Untitled Space Game")
 
-
+## Design Decisions
+- Why did we choose this theme?
+    - Provide a game that gives an out-of-this-world experience.
+- Why did we implement multiple genres?
+    - Different levels were based on different genres to provide a diverse gaming experience, thus catering to a wider audience. The variety of genres provides challenges that target different skill sets of the player.
 
 ## Requirements
 - The 3 requirements to be fulfilled in the creation of this project.
 <img src="/images/requirements.png" width="80%" height="80%">
+
+## Humble Beginning
+- Developing an immersive gaming platform requires multiple iterations and these were our initial storyboarding. 
+### Stage 1
+<img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="50%" width="auto"/>
