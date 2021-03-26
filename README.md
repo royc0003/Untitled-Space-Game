@@ -42,4 +42,4 @@ _Click the image (below) to be re-directed to the live demo_
 
 ## Requirements
 - The 3 requirements to be fulfilled in the creation of this project.
-<img src="/images/requirements.png" width="auto" height="50%">
+<img src="/images/requirements.png" width="80%" height="80%">
