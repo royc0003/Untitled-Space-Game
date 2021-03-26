@@ -1,4 +1,5 @@
 # Untitled-Space-Game
+Traverse through the different levels as you try to find your way back to Earth after being abducted by aliens! Test your skills by completing puzzles, navigating obstacles, and overcoming various other challenges that await you.
 
 ## Overall Preview
 - This is a preview of the 4 different stages implemented.
