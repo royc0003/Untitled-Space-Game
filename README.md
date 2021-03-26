@@ -42,7 +42,7 @@ _Click the image (below) to be re-directed to the live demo_
 - The 3 requirements to be fulfilled in the creation of this project.
 <img src="/images/requirements.png" width="80%" height="80%">
 
-## Humble Beginning
+## Humble Beginnings
 - Developing an immersive gaming platform requires multiple iterations and these were our initial storyboarding. 
 ### Stage 1
 <img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="50%" width="auto"/>
