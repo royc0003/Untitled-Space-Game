@@ -6,16 +6,16 @@ Designed using: `Unity3D`
 After getting abducted by a UFO, the main character realizes he is in a strange laboratory room.\
 
 `Level 1`:\
-Navigate through the different floors of the alien’s hideout to find a way to escape.\
+Navigate through the different floors of the alien’s hideout to find a way to escape.
 
 `Level 2`:\
-After escaping the hideout, get to the other side and reunite with his comrade by avoiding obstacles, and killing or avoiding enemies that are in the way.\
+After escaping the hideout, get to the other side and reunite with his comrade by avoiding obstacles, and killing or avoiding enemies that are in the way.
 
 `Level 3`:\
-Retrieve fuel by solving a memory grid and shooting aliens in a color pattern.\
+Retrieve fuel by solving a memory grid and shooting aliens in a color pattern.
 
 `Level 4`:\
-After getting fuel, the main character and his comrade realizes the rocket can only fit one person. The comrade reveals his evil intentions and becomes a giant that the main character has to defeat by shooting.\
+After getting fuel, the main character and his comrade realizes the rocket can only fit one person. The comrade reveals his evil intentions and becomes a giant that the main character has to defeat by shooting.
 
 `Ending`:\
 The main character flew the rocket and managed to land safely back on Earth. He documents his adventures into a game called Untitled Space Game.  
@@ -43,7 +43,7 @@ _Click the image (below) to be re-directed to the live demo_
 <img src="/images/requirements.png" width="80%" height="80%">
 
 ## Humble Beginnings
-Developing an immersive gaming platform requires multiple iterations and these were our _initial storyboard_. 
+Developing an immersive gaming platform requires multiple iterations and these were our _initial storyboards_. 
 ### Stage 1
 [stage1 part1]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="20%" width="50%"/>\
@@ -61,3 +61,15 @@ Developing an immersive gaming platform requires multiple iterations and these w
 <img src="/images/initial/stage2/Stage 2 Storyboard 2.png" height="20%" width="50%"/>\
 [stage2 part3]\
 <img src="/images/initial/stage2/Stage 2 Storyboard 3.png" height="20%" width="50%"/>
+
+### Stage 3
+[stage3 part1]\
+<img src="/images/initial/stage3/Stage 3 Storyboard 1.png" height="20%" width="50%"/>\
+[stage3 part2]\
+<img src="/images/initial/stage3/Stage 3 Storyboard 2.png" height="20%" width="50%"/>\
+[stage3 part3]\
+<img src="/images/initial/stage3/Stage 3 Storyboard 3.png" height="20%" width="50%"/>
+
+### Stage 4
+[stage3 part1]\
+<img src="/images/initial/stage4/Stage 4 Storyboard.png" height="20%" width="50%"/>\
