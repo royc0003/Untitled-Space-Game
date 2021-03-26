@@ -44,32 +44,34 @@ _Click the image (below) to be re-directed to the live demo_
 
 ## Humble Beginnings
 Developing an immersive gaming platform requires multiple iterations and these were our _initial storyboards_. 
-### Stage 1
-[stage1 part1]\
+### Level 1
+[Level 1 part 1]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 1.png" height="20%" width="50%"/>\
-[stage1 part2]\
+[Level 1 part 2]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 2.png" height="20%" width="50%"/>\
-[stage1 part3]\
+[Level 1 part 3]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 3.png" height="20%" width="50%"/>\
-[stage1 part4]\
+[Level 1 part 4]\
 <img src="/images/initial/stage1/Stage 1 Storyboard 4.png" height="20%" width="50%"/>
 
-### Stage 2
-[stage2 part1]\
+### Level 2
+[Level 2 part 1]\
 <img src="/images/initial/stage2/Stage 2 Storyboard 1.png" height="20%" width="50%"/>\
-[stage2 part2]\
+[Level 2 part 2]\
 <img src="/images/initial/stage2/Stage 2 Storyboard 2.png" height="20%" width="50%"/>\
-[stage2 part3]\
+[Level 2 part 3]\
 <img src="/images/initial/stage2/Stage 2 Storyboard 3.png" height="20%" width="50%"/>
 
-### Stage 3
-[stage3 part1]\
+### Level 3
+[Level 3 part 1]\
 <img src="/images/initial/stage3/Stage 3 Storyboard 1.png" height="20%" width="50%"/>\
-[stage3 part2]\
+[Level 3 part 2]\
 <img src="/images/initial/stage3/Stage 3 Storyboard 2.png" height="20%" width="50%"/>\
-[stage3 part3]\
+[Level 3 part 3]\
 <img src="/images/initial/stage3/Stage 3 Storyboard 3.png" height="20%" width="50%"/>
 
-### Stage 4
-[stage3 part1]\
+### Level 4
+[Level 4]\
 <img src="/images/initial/stage4/Stage 4 Storyboard.png" height="20%" width="50%"/>\
+
+## Full Storyline & Design Decisions Based on Levels
