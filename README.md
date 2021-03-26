@@ -23,6 +23,7 @@ Retrieve fuel by solving a memory grid and shooting aliens in a color pattern.\
 `Level 4`:\
 After getting fuel, the main character and his comrade realizes the rocket can only fit one person. The comrade reveals his evil intentions and becomes a giant that the main character has to defeat by shooting.\
 
+`Ending`:\
 The main character flew the rocket and managed to land safely back on Earth. He documents his adventures into a game called Untitled Space Game.  
 
 
