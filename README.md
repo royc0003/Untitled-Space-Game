@@ -143,7 +143,8 @@ One of the most crucial aspects of having an amazing game experience is to have 
 Additionally, the hitting effect from the protagonist would act as a cue to the player, warning him that he’s under attack.
 
 ##### Ambient Effect
-To add-on to the experience and appreciation for the game, we’ve added a few intricate details to the environment: For instance, the luminous rocks that would glow in certain zones and would reflect off your weapon when you’re close to them, the train wreckages, the protruding rocks and a control centre. These interactions between the sounds and the environment make everything feel organic.
+To add-on to the experience and appreciation for the game, we’ve added a few intricate details to the environment: For instance, the luminous rocks that would glow in certain zones and would reflect off your weapon when you’re close to them, the train wreckages, the protruding rocks and a control centre. These interactions between the sounds and the environment make everything feel organic.\
+<img src="/images/level4/Level 4 Luminescent.gif" height="20%" width="50%"/>\
 
 ### Cutscenes
 #### Developing Friendship
