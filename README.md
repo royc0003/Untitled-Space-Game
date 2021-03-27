@@ -135,27 +135,27 @@ Inspired by krunker.io (a FPS game) coupled with the parkour mechanics that are 
 #### What did we do to make the game immersive?
 ##### Mechanics
 To have a level designed for a combat-oriented flow experience, we have implemented a sheer variety of weapons that the player can choose from.\
-<img src="/images/level4/Level 4 Weapon Switch.gif" height="20%" width="50%"/>
+<img src="/images/level4/Level 4 Weapon Switch.gif" height="20%" width="auto"/>
 
 ##### Contrasting size
 We used both the element of contrasting size and elevations to elicit the menacing character from the protagonist.\
-<img src="/images/level4/Level 4 Menacing Boss.gif" height="20%" width="50%"/>
+<img src="/images/level4/Level 4 Menacing Boss.gif" height="20%" width="auto"/>
 
 ##### Appreciation
 We placed platforms in the map to allow the player to be able to get to higher altitudes and see the map from different angles and appreciate the environment that was created, instead of just remaining on ground level for the entire game where their field of vision would be limited.\
-<img src="/images/level4/Level 4 Platform Jump.gif" height="20%" width="50%"/>\
-<img src="/images/level4/Level 4 Vantage Point.gif" height="20%" width="50%"/>
+<img src="/images/level4/Level 4 Platform Jump.gif" height="20%" width="auto"/>\
+<img src="/images/level4/Level 4 Vantage Point.gif" height="20%" width="auto"/>
 
 ##### SFX
 One of the most crucial aspects of having an amazing game experience is to have sound effects that are as realistic as possible. And to achieve that, we’ve combined and layered the sounds together to achieve a crisp and realistic sound effect. For instance, every shot from the gun would be a combination of 3 different sounds(the firing sound, the falling empty shells and the impact of the bullet) randomly picked from a list of 10 different sound tracks. 
 
 Additionally, the hitting effect from the protagonist would act as a cue to the player, warning him that he’s under attack.\
-<img src="/images/level4/Level 4 Shoot Visual Effects.gif" height="20%" width="50%"/>
+<img src="/images/level4/Level 4 Shoot Visual Effects.gif" height="20%" width="auto"/>
 
 ##### Ambient Effect
 To add-on to the experience and appreciation for the game, we’ve added a few intricate details to the environment: For instance, the luminous rocks that would glow in certain zones and would reflect off your weapon when you’re close to them, the train wreckages, the protruding rocks and a control centre. These interactions between the sounds and the environment make everything feel organic.\
-<img src="/images/level4/Level 4 Luminescent.gif" height="20%" width="50%"/>\
-<img src="/images/level4/Level 4 Bonus Pick Ups.gif" height="20%" width="50%"/>
+<img src="/images/level4/Level 4 Luminescent.gif" height="20%" width="auto"/>\
+<img src="/images/level4/Level 4 Bonus Pick Ups.gif" height="20%" width="auto"/>
 
 ### Cutscenes
 #### Developing Friendship
