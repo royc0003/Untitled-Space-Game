@@ -24,6 +24,8 @@ The main character flew the rocket and managed to land safely back on Earth. He 
 ## Overall Preview
 - This is a preview of the 4 different stages implemented.
     - Starting with `Level 1` (top-left)
+    - `Level 2` (bottom-left)
+    -  `Level 3` (top-right)
     - Ending with `Level 4` (bottom-right)
 <img src="/images/Untitled_Space_game_stages.gif" height="500px" width="auto"/>
 
